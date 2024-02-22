@@ -7,7 +7,7 @@
   stroke: none,
   align: center,
   [İzmir, Turkey],
-  link("tel:+90 541 661 17 00"),
+  link("tel:+33 7 67 16 78 28"),
   link("mailto:keremkalinntas@gmail.com"),
   link("https://github.com/kalintas")[github],
   link("https://www.linkedin.com/in/kerem-kal%C4%B1nta%C5%9F-844a0b254")[linkedin],
@@ -16,14 +16,21 @@
 #show: template.with("Kerem Kalıntaş", info)
 
 == Profile
-An undergraduate computer engineering student at Dokuz Eylül
-University. Interested in low level programming. I excel in handling complex tasks, taking on responsibilities, and thriving in team environments. Values clean and elegant solutions to problems and knows the elegant solutions are only good if they are delivered without a compromise to the results. With over six years of passionate programming experience, I continue to expand my knowledge daily and am enthusiastic about learning even more.
+An undergraduate Computer Engineering student at Dokuz Eylül University, currently participating in the Erasmus+ student exchange program at Université Paris-Est Créteil.
+I excel in handling complex tasks, taking on responsibilities, 
+and thriving in team environments. Values clean and elegant solutions to problems and knows the elegant solutions are only good if they are delivered without a compromise to the results. With over six years of passionate programming experience, I continue to expand my knowledge daily and am enthusiastic about learning even more.
 
 == Education
-#experience[*BSc in Computer Engineering* - Dokuz Eylül University (*GPA: 3.42 / 4*)][2022 - present]
+#experience[*BSc in Computer Engineering* - Dokuz Eylül University (*GPA: 3.12 / 4*)][2022 - present]
 
 == Interests
 Interested in nearly every topic of programming. This includes emulation, operating systems, computer architecture, machine learning, virtual machines, distributed systems, reverse engineering, 3D rendering, parallel and concurrent programming, compilers.
+
+== Volunteer Experience
+Ground Control System Team Member — Dokuz Eylül Aerial Vehicles (DEHA) — September 2023 \
+• Parcipated in the devolopment of Eyrie, a custom *GCS* for DEHA drones, built upon Nightingale, written in *Rust*.\
+Drone Barcode Reader Team Lead - Dokuz Eylül Aerial Vehicles (DEHA) — September 2023 present\
+• Led the development of a barcode reader software that does *image processing* using *OpenCV* for processing drone camera input and recognizing barcodes written in *Phyton*.\
 
 == Projects
 #project("gameboy")[gameboy][
@@ -34,9 +41,8 @@ Interested in nearly every topic of programming. This includes emulation, operat
   A complete Chip8 and SuperChip *interpreter* written in *Rust*.
 ]
 
-#project("mandel")[mandel][
-  A Mandelbrot and Juila Set explorer that is using *OpenGL
-  shaders* under the hood for *GPU rendering* and written in *C++*.
+#project("aoc-2023")[aoc-2023][
+  Advent Of Code 2023 solved only using Gameboy *assembly*.
 ]
 
 #project("cppturko")[cppturko][
@@ -52,24 +58,12 @@ Interested in nearly every topic of programming. This includes emulation, operat
   The num mobile game implementation that is written in *React Native*.
 ]
 
-#project("tetris-3d")[tetris-3d][
-  A simple *3D* tetris port that is written in *Rust* that uses *OpenGL shaders* for rendering.
-]
-
-#project("tetris")[tetris][
-  A simple tetris port that is written from scratch in *C++* that uses *SDL2* for rendering.
-]
-
 #project("deu_ceng")[deu ceng][
   Solutions of the projects and homeworks that is given in 2022-present written in *Java*, *C\#* and *Phyton*. 
 ]
 
 #project("schess")[schess][
   A chess implementation with *Minimax* algorithm for the *AI* of the opponent that is written from scratch in *C++*, that uses *OpenGL* and *GLFW* for rendering.
-]
-
-#project("variant")[variant][
-  A simple port of the *sum type* that is in the *C++ standard* written in *C++*.
 ]
 
 Other projects: Created fully changeable *QR menus* using *React* and *Firebase* for small businesses. For
