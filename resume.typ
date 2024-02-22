@@ -6,7 +6,7 @@
   gutter: auto,
   stroke: none,
   align: center,
-  [İzmir, Turkey],
+  [Paris, France],
   link("tel:+33 7 67 16 78 28"),
   link("mailto:keremkalinntas@gmail.com"),
   link("https://github.com/kalintas")[github],
